@@ -4,15 +4,18 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header-app {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header-icon {
   width: 100%;
 }
+
 .more-info {
   font-family: fantasy, cursive;
 }
@@ -21,29 +24,36 @@
   .header-app { text-align: center;
   }
 }
+
 .container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .task-row-wrapper {
   display: flex;
 }
+
 ul {
   margin:0;
   padding: 0px;
 }
+
 li, h3 {
   list-style:none;
 }
-input,button{
+
+input, button{
   outline:none;
 }
+
 .section-btn {
   background: none;
   border: 0px;
@@ -53,9 +63,11 @@ input,button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .section-btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .section-title,
 .add-section-label {
@@ -100,11 +112,11 @@ input,button{
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .task-item > * {
   vertical-align: middle;
 }
@@ -112,6 +124,7 @@ input,button{
 .checkbox-btn {
   margin: 0 10px;
 }
+
 .task {
   padding-left: 10px;
   box-sizing: border-box;
@@ -120,13 +133,15 @@ input,button{
 }
 
 .task-item .input-text {
-    width: 226px
+  width: 226px
 }
+
 .delete-icon {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete-icon:hover {
   transform: rotateZ(0);
 }
